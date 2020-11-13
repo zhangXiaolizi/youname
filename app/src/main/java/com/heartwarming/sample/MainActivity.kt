@@ -3,6 +3,7 @@ package com.heartwarming.sample
 import android.graphics.Color
 import android.os.Bundle
 import android.view.Gravity
+import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -33,7 +34,17 @@ class MainActivity : AppCompatActivity() {
                 println("asdasdasda--------------")
                 println("asdasdasda--------------++++++++++++++")
 
+                println("aksjdaldaskdja")
+
                 println("asdasdasda-------sdjfklsjdfks-------")
+
+
+
+                println("asdalksdal国立")
+
+
+
+                window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
 
 
