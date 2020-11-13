@@ -19,6 +19,11 @@ class MainActivity : AppCompatActivity() {
                 this.layoutParams = lp
                 gravity  = Gravity.CENTER
                 setTextColor(Color.WHITE)
+
+
+
+
+                println("dasdasdasd")
                 val color = ColorHelper.getColorOfIndex(Color.parseColor("#12b666"), index)
                 text = "#${Color.red(color).toString(16)}${Color.green(color).toString(16)}${
                     Color.blue(color).toString(16)
