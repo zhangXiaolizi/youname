@@ -17,10 +17,12 @@ class MainActivity : AppCompatActivity() {
             val textView = TextView(this).apply {
                 val lp = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 100)
                 this.layoutParams = lp
-                gravity  = Gravity.CENTER
+                gravity = Gravity.CENTER
                 setTextColor(Color.WHITE)
 
+                //askdjalksdjalsjdkalksdjalsd
 
+                ColorHelper.getColorOfIndex(Color.WHITE, 1)
 
 
                 println("dasdasdasd")
