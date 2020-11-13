@@ -22,10 +22,20 @@ class MainActivity : AppCompatActivity() {
 
                 //askdjalksdjalsjdkalksdjalsd
 
+
+                println("asdjaksdlaksda")
                 ColorHelper.getColorOfIndex(Color.WHITE, 1)
 
 
-                println("dasdasdasd")
+                println("123123123123132")
+
+
+                println("asdasdasda")
+
+
+
+
+
                 val color = ColorHelper.getColorOfIndex(Color.parseColor("#12b666"), index)
                 text = "#${Color.red(color).toString(16)}${Color.green(color).toString(16)}${
                     Color.blue(color).toString(16)
